@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vännäs historia · En liten plats. En stor historia.</title>
+  <meta name="description" content="Upptäck Vännäs historia 1880–1940. Fotografier, människor och platser berättar om vägen från jordbruksby till stationssamhälle.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23bb3c27'/%3E%3Ctext x='32' y='47' font-family='Georgia' font-size='46' text-anchor='middle' fill='%23faf8f2'%3EV%3C/text%3E%3C/svg%3E">
+  <link rel="preload" as="image" href="assets/vannashistoria.jpg">
+  <link rel="stylesheet" href="assets/display.css"><link rel="stylesheet" href="assets/body.css">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="assets/leaflet.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Hoppa till innehållet</a>
+<header class="site-header">
+ <a class="wordmark" href="#" aria-label="Vännäs historia, startsida">Vännäs<span>historia<span class="brand-dot">.</span></span></a>
+ <nav class="desktop-nav" aria-label="Huvudnavigation"><a href="#berattelsen">Berättelsen</a><a href="#samlingen">Samlingen</a><a href="#kartan">Historiska kartan</a><a href="#bakgrund">Om arkivet</a></nav>
+ <a class="header-action" href="#samlingen">Utforska arkivet</a>
+ <button class="menu-toggle" aria-label="Öppna meny" aria-expanded="false" aria-controls="mobile-nav">Meny</button>
+</header>
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobilnavigation" hidden><a href="#berattelsen">Berättelsen</a><a href="#samlingen">Samlingen</a><a href="#kartan">Historiska kartan</a><a href="#bakgrund">Om arkivet</a><a href="#nyheter">Nyheter</a><a href="#kontakt">Kontakt</a></nav>
+<main id="main">
+ <section class="hero" aria-labelledby="hero-title">
+  <img class="hero-image" src="assets/vannashistoria.jpg" alt="Människor med cyklar framför T.A. Lindströms järnvaruaffär och diversehandel i Vännäs, 1902–1904." width="2029" height="1280" fetchpriority="high">
+  <div class="hero-shade"></div>
+  <div class="hero-top"><span>VÄNNÄS, VÄSTERBOTTEN</span><span>ETT SAMHÄLLE. TUSENTALS BERÄTTELSER.</span></div>
+  <div class="hero-content"><p class="hero-period">1880 <span></span> 1940</p><h1 id="hero-title">En liten plats.<br>En stor <em>historia.</em></h1><div class="hero-bottom"><p>Drömmen om en stad. Drömmar om ett bättre liv.<br>Upptäck människorna och platserna som formade Vännäs.</p><a class="button primary" href="#berattelsen">Börja resan</a></div></div>
+  <div class="hero-caption"><span>T.A. LINDSTRÖMS HANDEL · 1902–1904</span><button data-photo="381">Om fotografiet</button></div>
+ </section>
+ <div class="archive-strip"><span>En gemensam historia, bevarad för framtiden.</span><a href="#samlingen">1 768 fotografier</a><span class="strip-divider">/</span><a href="#samlingen" data-category="persons">1 132 människoöden</a><span class="strip-divider">/</span><a href="#samlingen" data-category="properties">334 fastigheter</a></div>
+ <section id="berattelsen" class="intro section-pad">
+  <div><h2>Allt började med<br>en dröm om<br> <em>något större.</em></h2></div>
+  <div class="intro-copy"><p class="lead">När järnvägen kom till Vännäs förändrades mer än landskapet. Här började nya liv.</p><p>Handlare, hantverkare, järnvägsarbetare och familjer sökte sig hit. De byggde hus, startade verksamheter och lade grunden till det samhälle vi känner idag.</p><p>Genom fotografier, kartor och personliga berättelser följer vi Vännäs utveckling under åren 1880–1940. Ett stycke lokalhistoria, berättat av dem som var där.</p><a class="text-link" href="#samlingen" data-category="persons">Möt människorna i arkivet</a></div>
+ </section>
+ <section class="timeline section-pad" aria-labelledby="timeline-title">
+ <div class="section-heading"><h2 id="timeline-title">En plats i förändring.</h2><p>Följ några nedslag i berättelsen.</p></div>
+ <div class="year-tabs" role="tablist" aria-label="Historiska årtal">
+  <button role="tab" aria-selected="false" id="year-1889" aria-controls="timeline-panel" data-year="1889" tabindex="-1">1889</button>
+  <button role="tab" aria-selected="true" id="year-1891" aria-controls="timeline-panel" data-year="1891">1891</button>
+  <button role="tab" aria-selected="false" id="year-1913" aria-controls="timeline-panel" data-year="1913" tabindex="-1">1913</button>
+  <button role="tab" aria-selected="false" id="year-1931" aria-controls="timeline-panel" data-year="1931" tabindex="-1">1931</button>
+  <button role="tab" aria-selected="false" id="year-1938" aria-controls="timeline-panel" data-year="1938" tabindex="-1">1938</button>
+ </div>
+ <div id="timeline-panel" class="timeline-content" role="tabpanel" aria-labelledby="year-1891"><figure><img id="timeline-image" src="assets/photo-759.jpg" alt="Vännäs järnvägsstation, 1892–1894" width="1280" height="945" loading="lazy"><figcaption id="timeline-caption">Vännäs järnvägsstation, fotograferad 1892–1894.</figcaption></figure><div class="timeline-text"><span id="timeline-year" class="year-number">1891</span><h3 id="timeline-heading">Järnvägen förändrar allt.</h3><p id="timeline-description">Järnvägen kommer till Vännäs. Runt stationen växer ett samhälle fram, med nya arbeten, handelsbodar och människor som söker en framtid här.</p><button class="text-link" id="timeline-detail" data-photo="759">Se fotografiet och läs mer</button></div></div>
+</section>
+<section class="selected section-pad" aria-labelledby="selected-title">
+ <div class="section-heading"><h2 id="selected-title">Ögonblick som<br><em>stannade kvar.</em></h2><div><p>Bakom varje fotografi finns ett liv.<br>Stanna en stund. Titta närmare.</p><a class="text-link" href="#samlingen">Visa alla 1 768 fotografier</a></div></div>
+ <div class="photo-editorial">
+  <button class="editorial-photo first-photo" data-photo="1476"><div class="photo-frame"><img src="assets/photo-1476.jpg" alt="J. P. Lindström med sömmerskor" width="1280" height="938" loading="lazy"><span class="photo-open">Se fotografiet</span></div><span class="photo-label">Arbetet & människorna <span>ca 1899–1905</span></span><h3>Händerna som byggde vardagen.</h3><p>J. P. Lindström med sömmerskor.</p></button>
+  <button class="editorial-photo second-photo" data-photo="625"><div class="photo-frame"><img src="assets/photo-625.jpg" alt="Allbergs Diversehandel i vinterlandskap" width="1280" height="720" loading="lazy"><span class="photo-open">Se fotografiet</span></div><span class="photo-label">Husen & gatorna <span>1908–1910</span></span><h3>En välbekant gata.<br>En annan tid.</h3><p>Allbergs Diversehandel vid Fällforsvägen.</p></button>
+ </div>
+</section>
+<section id="samlingen" class="collection section-pad" aria-labelledby="collection-title">
+ <div class="section-heading"><h2 id="collection-title">Historien är här.<br><em>Hitta din del av den.</em></h2><p>Sök ett namn, en gata eller en plats.<br>Hela arkivet väntar på att upptäckas.</p></div>
+ <div class="collection-tabs" role="tablist" aria-label="Välj arkiv">
+  <button role="tab" id="tab-photos" aria-selected="true" aria-controls="archive-results" data-kind="photos">Fotografier <span>1 768</span></button>
+  <button role="tab" id="tab-persons" aria-selected="false" aria-controls="archive-results" tabindex="-1" data-kind="persons">Personer <span>1 132</span></button>
+  <button role="tab" id="tab-properties" aria-selected="false" aria-controls="archive-results" tabindex="-1" data-kind="properties">Fastigheter <span>334</span></button>
+  <button role="tab" id="tab-organizations" aria-selected="false" aria-controls="archive-results" tabindex="-1" data-kind="organizations">Verksamheter <span>209</span></button>
+ </div>
+ <div class="archive-tools"><div class="search-wrap"><label for="archive-search">Sök i samlingen</label><input id="archive-search" type="search" placeholder="Namn, gata, plats eller berättelse…" autocomplete="off"></div><label class="sort-wrap" for="archive-sort">Ordning<select id="archive-sort"><option value="default">Arkivets ordning</option><option value="az">A–Ö</option><option value="old">Äldsta först</option><option value="new">Nyaste först</option></select></label></div>
+ <div class="result-meta"><p id="result-count" role="status">Läser in samlingen…</p><button id="clear-search" hidden>Rensa sökning</button><span>Material från Vännäs historia</span></div>
+ <div id="archive-results" role="tabpanel" aria-labelledby="tab-photos" aria-busy="true"></div>
+ <div class="pagination"><button id="prev-page" disabled>Föregående</button><span id="page-info"></span><button id="next-page">Nästa sida</button></div>
+</section>
+<section id="kartan" class="map-section section-pad" aria-labelledby="map-title">
+ <div class="section-heading"><h2 id="map-title">Gatorna minns.</h2><p>Se var husen stod och var bilderna togs.<br>Gatuadresserna följer arkivets karta från 1946.</p></div>
+ <div class="map-controls" aria-label="Visa på kartan"><button class="active" data-map="properties" aria-pressed="true">Fastigheter</button><button data-map="photos" aria-pressed="false">Fotoplatser</button><button id="map-reset">Återställ kartan</button></div>
+ <div id="history-map" aria-label="Interaktiv karta över Vännäs historiska fastigheter och fotoplatser"><p class="map-loading">Läser in den historiska kartan…</p></div>
+ <p class="map-footnote">Klicka på en markering för att läsa om platsen. Historiska uppgifter från arkivet visas på en nutida baskarta.</p>
+</section>
+<section id="bakgrund" class="about section-pad">
+ <div class="about-image"><img src="assets/photo-761.jpg" alt="Järnvägsbron över Ume älv 1918" width="1280" height="803" loading="lazy"><span>JÄRNVÄGSBRON ÖVER UME ÄLV · 1918</span></div>
+ <div><h2>För att det som var<br><em>ska finnas kvar.</em></h2><p class="lead">En samling negativ. Ett livslångt intresse. En gemensam kunskapsbank.</p><p>Fotoamatören Rune Edebro dokumenterade Vännäs och samlade äldre fotografier. På 1970-talet fick han i uppdrag av Kulturnämnden att ta fram material till en fotoutställning om ortens historia.</p><p>Idag lever arbetet vidare genom Inger Edebro Sikström och Tomas Sikström. Bilderna kompletteras med berättelser, källor och kunskap från fler som känner Vännäs.</p><button class="text-link" data-page="about">Läs hela berättelsen om arkivet</button><p class="about-credit">Med material från bland andra Järnvägsmuseet, Västerbottens Museum, Västerbottens regementes arkiv och Folkrörelsearkivet i Västerbotten.</p></div>
+</section>
+<section id="nyheter" class="news section-pad">
+ <div class="section-heading"><h2>Historien fortsätter<br>att växa.</h2><button class="text-link" data-page="news">Alla nyheter och uppdateringar</button></div>
+ <div class="news-list"><button data-photo="1775"><span>FEBRUARI 2026</span><div><span class="news-type">Nytt fotografi</span><h3>Erik Gustaf Thelberg framför Vegaskolan</h3></div><span class="news-read">Läs mer</span></button><button data-photo="1774"><span>FEBRUARI 2026</span><div><span class="news-type">Nytt fotografi</span><h3>Emigranter</h3></div><span class="news-read">Läs mer</span></button><button data-person="1133"><span>JANUARI 2026</span><div><span class="news-type">Ny person</span><h3>Thorsten Viklund</h3></div><span class="news-read">Läs mer</span></button></div>
+ <div class="reading"><h3>Fortsätt läsa.</h3><div><h4>Drömmar om ett bättre liv</h4><p>Ett stationssamhälle växer fram i Wännäs socken. Boken presenteras i originalarkivets nyheter och finns enligt uppgifterna där även hos Mandatus.</p><a class="text-link" href="mailto:distribution@tryckning.nu">Kontakta Mandatus om boken</a><p class="small">Telefon: <a href="tel:+4690145405">090 145 405</a></p></div><div><h4>Vännäs järnvägssamhälle 130 år</h4><p>Ett häfte framtaget till jubileet 2021, 130 år efter järnvägens ankomst till Vännäs.</p><a class="text-link" href="https://vannashistoria.se/vannas-jarnvagssamhalle-130-ar" target="_blank" rel="noopener">Läs jubileumshäftet</a></div></div>
+</section>
+<section id="kontakt" class="contact section-pad"><div><h2>Din berättelse<br>hör också <em>hemma här.</em></h2><p>Känner du igen ett ansikte? Har du en bild, en berättelse eller en uppgift som behöver rättas? Hjälp till att bevara Vännäs historia.</p></div><div><a class="contact-email" href="mailto:info@vannashistoria.se">info@vannashistoria.se</a><p>Inger Edebro Sikström<br>Tomas Sikström</p><a class="button primary" href="mailto:info@vannashistoria.se">Dela din berättelse</a></div></section>
+
+</main>
+<footer><a class="wordmark" href="#">Vännäs<span>historia<span class="brand-dot">.</span></span></a><p>Drömmen om en stad.<br>Drömmar om ett bättre liv.</p><div><a href="https://vannashistoria.se" target="_blank" rel="noopener">Originalarkivet</a><span>Historiskt material: Vännäs historia · Originalets copyright 2021</span><span>Arkivunderlag hämtat 2 oktober 2026</span><a href="#nyheter">Nyheter</a><a href="#kontakt">Kontakt</a></div></footer>
+<dialog id="reader" aria-labelledby="reader-title"><button class="close-reader" aria-label="Stäng fördjupning">Stäng</button><div id="reader-body"></div></dialog>
+<script src="assets/leaflet.js" defer></script><script src="app.js" defer></script>
+</body></html>

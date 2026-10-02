@@ -1,0 +1,8 @@
+VÄNNÄS HISTORIA
+
+Lägg paketets innehåll i roten av ditt GitHub Pages-repo.
+Behåll mapparna assets och data tillsammans med index.html, style.css och app.js.
+
+Alternativ: den separat levererade index.html innehåller stilmallar, skript, typsnitt, startsidans bilder och arkivdata i en enda fil.
+
+Arkivets övriga fotografier hämtas från vannashistoria.se. Kartans baskarta hämtas från OpenStreetMap.
